@@ -6,8 +6,8 @@ using namespace std;
 
 class Tank
 {
-	const int VOLUME;
 	double fuel_level;
+	const int VOLUME;
 public:
 	const int get_VOLUME()const
 	{
@@ -30,12 +30,18 @@ public:
 		if (fuel_level < 0)fuel_level = 0;
 		return fuel_level;
 	}
-	Tank(int volume):VOLUME(volume)
+	Tank(int volume):VOLUME
+		(
+			volume < MIN_TANK_VOLUME ? MIN_TANK_VOLUME :
+			volume > MAX_TANK_VOLUME ? MAX_TANK_VOLUME :
+			volume
+		),
+		fuel_level(0)
 	{
 		/*if (volume < MIN_TANK_VOLUME)volume = MIN_TANK_VOLUME;
 		if (volume > MAX_TANK_VOLUME)volume = MAX_TANK_VOLUME;
 		this->VOLUME = volume;*/
-		this->fuel_level = 0;
+		//this->fuel_level = 0;
 		cout << "Tank is ready " << this << endl;
 	}
 	void info()const
@@ -48,6 +54,12 @@ public:
 void main()
 {
 	setlocale(LC_ALL, "");
-	Tank tank(-50);
-	tank.info();
+	Tank tank(85);
+	int fuel;
+	do
+	{
+		cout << "Введите объем топлива: "; cin >> fuel;
+		tank.fill(fuel);
+		tank.info();
+	} while (fuel > 0);
 }

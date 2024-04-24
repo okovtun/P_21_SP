@@ -5,9 +5,12 @@ TOREAD:
 https://legacy.cplusplus.com/reference/thread/thread/
 
 TODO:
-1. Машина должна разгоняться и тормозить;
-2. Расход топлива должен изменяться в зависимости от текущей скорости;
-3. Добавить задний ход;
+1. Установить QtCreator:	https://drive.google.com/drive/folders/1nJUXS1MzBZzO6m9dcGMua-_poyvrlTMp?usp=sharing
+
+DONE:
+1. Машина должна разгоняться и тормозить;		DONE
+2. Расход топлива должен изменяться в зависимости от текущей скорости;	DONE
+3. Добавить задний ход;		DONE
 
 DONE:
 1. Обеспечить выход водителя из машины;		DONE

@@ -5,6 +5,17 @@ TOREAD:
 https://legacy.cplusplus.com/reference/thread/thread/
 
 TODO:
+1. Добавить кнопку 'Mute', которая отключает звук.
+   Внешний вид кнопки должен отображать ее состояние;
+2. В заголовке окна должна отображаться воспроизводимая композиция,
+   например: MediaPlayerP_21: Metallica - One;
+3. При воспроизведении sliderProgress должен двигаться;
+4. Должна быть возможность прокрутки активной композиции при помощи слайдера 'Progrss';
+
+DONE:
+Музыка должна заиграть.
+
+DONE:
 1. Установить QtCreator:	https://drive.google.com/drive/folders/1nJUXS1MzBZzO6m9dcGMua-_poyvrlTMp?usp=sharing
 
 DONE:

@@ -1,2 +1,6 @@
-<!DOCTYPE RCC>
-<RCC version="1.0"/>
+<RCC>
+    <qresource prefix="/ico">
+        <file>ico/note.ico</file>
+        <file>ico/speaker.ico</file>
+    </qresource>
+</RCC>

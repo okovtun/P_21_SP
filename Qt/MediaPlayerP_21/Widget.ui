@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>571</width>
-    <height>244</height>
+    <height>384</height>
    </rect>
   </property>
   <property name="sizePolicy">
@@ -19,13 +19,13 @@
   <property name="minimumSize">
    <size>
     <width>571</width>
-    <height>244</height>
+    <height>384</height>
    </size>
   </property>
   <property name="maximumSize">
    <size>
     <width>571</width>
-    <height>244</height>
+    <height>384</height>
    </size>
   </property>
   <property name="windowTitle">
@@ -117,7 +117,7 @@
    <property name="geometry">
     <rect>
      <x>20</x>
-     <y>210</y>
+     <y>350</y>
      <width>80</width>
      <height>21</height>
     </rect>
@@ -170,7 +170,7 @@
     <rect>
      <x>20</x>
      <y>90</y>
-     <width>61</width>
+     <width>121</width>
      <height>16</height>
     </rect>
    </property>
@@ -189,6 +189,29 @@
    </property>
    <property name="text">
     <string>Duration</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButtonMute">
+   <property name="geometry">
+    <rect>
+     <x>329</x>
+     <y>50</y>
+     <width>48</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QTableView" name="tableViewPlaylist">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>150</y>
+     <width>521</width>
+     <height>192</height>
+    </rect>
    </property>
   </widget>
  </widget>

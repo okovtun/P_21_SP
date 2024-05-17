@@ -29,6 +29,10 @@ private slots:
 
 	void on_position_changed(qint64 position);
 
+	void on_horizontalSliderProgress_valueChanged(int value);
+
+	void on_current_index_changed(int position);
+
 private:
 	Ui::Widget *ui;
 

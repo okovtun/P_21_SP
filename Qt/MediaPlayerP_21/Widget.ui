@@ -118,12 +118,12 @@
     <rect>
      <x>20</x>
      <y>350</y>
-     <width>80</width>
-     <height>21</height>
+     <width>48</width>
+     <height>24</height>
     </rect>
    </property>
    <property name="text">
-    <string>Open</string>
+    <string>ADD</string>
    </property>
   </widget>
   <widget class="QSlider" name="horizontalSliderVolume">
@@ -212,6 +212,58 @@
      <width>521</width>
      <height>192</height>
     </rect>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButtonDEL">
+   <property name="geometry">
+    <rect>
+     <x>80</x>
+     <y>350</y>
+     <width>48</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>DEL</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>140</x>
+     <y>350</y>
+     <width>48</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>CLR</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButtonShuffle">
+   <property name="geometry">
+    <rect>
+     <x>430</x>
+     <y>350</y>
+     <width>48</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>S</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButtonLoop">
+   <property name="geometry">
+    <rect>
+     <x>490</x>
+     <y>350</y>
+     <width>48</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>L</string>
    </property>
   </widget>
  </widget>
